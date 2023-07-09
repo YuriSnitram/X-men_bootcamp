@@ -32,12 +32,12 @@ console.log('personagens');
 //     console.log('clicou')
 // })
 
-// personagens.forEach(personagem => {
-//     personagem.addEventListener('mouseenter', () => {
-//         if (window.innerWidth < 450) {
-//             window.scroll({ top: 0, behavior: 'smooth' });
+personagens.forEach(personagem => {
+    personagem.addEventListener('mouseenter', () => {
+        if (window.innerWidth < 450) {
+            window.scroll({ top: 0, behavior: 'smooth' });
 
-//         }
+        }
 
 
         const personagemSelecionado = document.querySelector('.selecionado')
