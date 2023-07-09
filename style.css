@@ -16,16 +16,17 @@ body {
     color: #ffffff;
 
 }
- body::before{
-   content: "yuri";
-   background-image: url(./imagens/bg-desktop.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   z-index: -1;
-   opacity: 0.3;
+
+body::before {
+    content: "";
+    background-image: url(./imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
 
 }
 
